@@ -63,5 +63,3 @@
 **/.vagrant/
 **/.tmp/
 
-# Generated SecGen test environment
-/test_lab/
