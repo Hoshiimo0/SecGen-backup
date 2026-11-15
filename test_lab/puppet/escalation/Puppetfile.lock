@@ -1,0 +1,38 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-stdlib (9.7.0)
+
+PATH
+  remote: /home/secgen-26/SecGen/modules/build/puppet/secgen_functions
+  specs:
+    SecGen-secgen_functions (0.0.1)
+
+PATH
+  remote: /home/secgen-26/SecGen/modules/services/unix/dns/bind9
+  specs:
+    SecGen-modules_services_unix_dns_bind9-bind9 (0.0.1)
+
+PATH
+  remote: /home/secgen-26/SecGen/modules/utilities/unix/update/unix_update
+  specs:
+    SecGen-modules_utilities_unix_update_unix_update-unix_update (0.0.1)
+
+PATH
+  remote: /home/secgen-26/SecGen/modules/vulnerabilities/unix/access_control_misconfigurations/suid_root_less
+  specs:
+    SecGen-modules_vulnerabilities_unix_access_control_misconfigurations_suid_root_less-suid_root_less (0.0.1)
+
+PATH
+  remote: /home/secgen-26/SecGen/modules/vulnerabilities/unix/http/apache_spark_rce
+  specs:
+    SecGen-modules_vulnerabilities_unix_http_apache_spark_rce-apache_spark_rce (0.0.1)
+
+DEPENDENCIES
+  SecGen-modules_services_unix_dns_bind9-bind9 (>= 0)
+  SecGen-modules_utilities_unix_update_unix_update-unix_update (>= 0)
+  SecGen-modules_vulnerabilities_unix_access_control_misconfigurations_suid_root_less-suid_root_less (>= 0)
+  SecGen-modules_vulnerabilities_unix_http_apache_spark_rce-apache_spark_rce (>= 0)
+  SecGen-secgen_functions (>= 0)
+  puppetlabs-stdlib (>= 0)
+
