@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario>
+  <system>
+    <system_name>my_simple_target</system_name>
+    
+    <base>
+      <platform>linux</platform>
+    </base>
+    
+    <network>
+      <type>private_network</type>
+    </network>
+    
+    <vulnerability module_path="vulnerabilities/distcc_exec" />
+    
+  </system>
+</scenario>
