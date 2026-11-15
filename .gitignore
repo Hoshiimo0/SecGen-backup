@@ -62,3 +62,6 @@
 # Local test environment artifacts
 **/.vagrant/
 **/.tmp/
+
+# Generated SecGen test environment
+/test_lab/
