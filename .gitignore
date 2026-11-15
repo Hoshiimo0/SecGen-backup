@@ -1,0 +1,64 @@
+# Generated SecGen projects
+/projects/
+
+# Vagrant
+**/.vagrant/
+
+# Private keys and credentials
+**/id_rsa
+**/id_ed25519
+**/private_key
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Virtual machine images
+*.box
+*.vdi
+*.vmdk
+*.qcow2
+
+# Temporary files
+**/.tmp/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Generated environments
+/projects/
+**/.vagrant/
+
+# Virtual machine images
+*.box
+*.vdi
+*.vmdk
+*.qcow2
+
+# Temporary files
+**/.tmp/
+
+# Private keys
+**/id_rsa
+**/id_ed25519
+**/private_key
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# SecGen runtime output
+/outputlog
+
+# Cryptographic material requiring separate review
+**/static.key
+**/*.p12
+**/*.pfx
+
+# Local test environment artifacts
+**/.vagrant/
+**/.tmp/
